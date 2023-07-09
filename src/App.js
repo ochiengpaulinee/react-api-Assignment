@@ -1,8 +1,9 @@
 import './App.css';
-import { BrowserRouter, Route, Router, Routes } from 'react-router-dom';
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import Productpage from './Productpage';
 import Navbar from './Navbar';
 import Login from './Login';
+import Productdetail from './Productdetail'
 
 
 function App() {
@@ -12,7 +13,7 @@ function App() {
       <BrowserRouter>
       <Routes>
         <Route path='/' element = {<Login/>}/>
-        <Route path='/' element = {<Productpage/>}/>
+        <Route path='/home' element = {<Productpage/>}/>
         <Route path='/' element = {<Productdetail/>}/>
       </Routes>
       </BrowserRouter>

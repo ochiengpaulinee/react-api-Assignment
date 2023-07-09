@@ -1,0 +1,32 @@
+
+.navbar {
+    background-color: black;
+    padding: 5px 10px;
+    width: 98.5%;
+  }
+  nav, .ul{
+      display: flex;
+      gap: 150px;
+      margin-left: 15%;
+  }
+  nav{
+      justify-content: space-between;
+  }
+  nav >img{
+  width: 80px;
+  height: 50px;
+  }
+  a {
+  list-style: none;
+  font-size: 20px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  text-decoration: none;
+  color: #EEEEEE;
+  &.active {
+  color: #957BA1;
+  }
+  }
+  li {
+    list-style: none;
+    margin-bottom: 10px;
+  }

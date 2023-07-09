@@ -19,7 +19,24 @@ const Productdetail = () =>{
             }
         }
         getDetails();
-    }, [productId]);
+    },
+    [productId]);
 
-    if()
-}
+    if(!product){
+        return <h4>loading.....</h4>;
+    }
+    return(
+        <div className="details">
+            <h2>Product Details</h2>
+            <div className="productdetails">
+                <img src={product.thumbnail} alt={product.name}/>
+                <h2>name:{product.name}</h2>
+                <p>Description:{product.description}</p>
+                <p>Brand:{product.brand}</p>
+                <h1>Price:{product.price}</h1>
+            </div>
+        </div>
+    );
+};
+
+export default Productdetail

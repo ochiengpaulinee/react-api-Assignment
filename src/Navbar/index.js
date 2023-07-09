@@ -1,19 +1,24 @@
 import React from "react";
-import '/style.css';
+import './style.css';
 
 
-const Navbar = ()=>{
-    return(
-        <div className="nav">
-            <nav className="navigation">
-                <ul className="ul"> 
-                <li><a href="/home">home</a></li>
-                <li><a href="/login">login</a></li>
-                <li><a href="/products">Products</a></li>
-                </ul>
-            </nav>
-        </div>
+const Navbar = () => {
+    return (
+      <div className="navbar">
+        <nav className="nav">
+          <ul className="ul">
+            <li>
+              <a href="/home">Home</a>
+            </li>
+            <li>
+              <a href="/about">Login</a>
+            </li>
+            <li>
+              <a href="/product">Products</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
     );
-};
-
-export default Navbar
+  };
+  export default Navbar;
