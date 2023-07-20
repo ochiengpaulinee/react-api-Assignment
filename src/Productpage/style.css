@@ -2,8 +2,9 @@
     margin: 2% ;
     display: flex;
     flex-wrap: wrap;
-    gap: 5px;
-    margin-left: 20%;
+    gap: 5em;
+    margin-left: 15%;
+    margin-top: 8%;
     /* align-items: center; */
 }
 .item{
@@ -15,7 +16,7 @@
     height: 50%;
     border: solid;
     border-color: gray;
-    border-radius: 30px;
+    /* border-radius: 10px; */
 }
 .links{
         background-color: maroon;
@@ -29,17 +30,14 @@
         height: 50px;
 }
 .add{
-    /* margin-left: 0; */
-    margin-top: 2%;
     text-align: center;
-    background-color: maroon;
-    border-color: maroon;
+    background-color:brown;
+    border-color: brown;
     color: #FFFFFF;
     padding: 10px 20px;
     font-size: 16px;
     cursor: pointer;
-    border-radius: 5px 10px;
+    border-radius: 30px;
     width: 200px;
-    float: right;
-    margin-top: -160%;
+    margin-left: 6%;
 }

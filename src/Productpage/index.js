@@ -43,7 +43,7 @@ const Productpage = () => {
       ))}
     </div>
     <Link to={`/ProductDetails`} ><button className="add">Add Product</button></Link>
-    {/* <Link to={`/login`} ><button className="add">Login</button></Link> */}
+    {/* <Link to={`/login`} ><button className="add">ProductDetails</button></Link> */}
     </div>
   );
 };
